@@ -1,0 +1,36 @@
+h1 {
+	color: red;
+	text-align: center;
+}
+span {
+	color: blue;
+	text-decoration: underline;
+}
+img {
+	width: 300px;
+	border: 4px double deeppink;
+}
+figure {
+	align-content: center;
+}
+a {
+	color: green;
+}
+a:hover {
+	text-decoration: none;
+}
+figcaption {
+font-size: 19px;
+}
+ol {
+	font-size: 19px;
+	text-align: left;
+	color: green;
+}
+article {
+	text-align: center;
+}
+footer {
+	border-bottom: 2px dashed black;
+	height: 20px;
+}
