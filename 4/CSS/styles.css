@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: arial, sans-serif;
+}
+.wrapper {
+	width: 800px;
+	height: 100%;
+	margin: 0 auto;
+	font-size: 28px;
+	color: white;
+	background-color: lightblue;
+}
+aside {
+	width: 200px;
+	height: 100%;
+	background-color: lightblue;
+	text-align: center;
+}
+.aside-left {
+	float: left;
+}
+.aside-right {
+	float: right;
+}
+.content {
+	width: 400px;
+	margin-left: 200px;
+	margin-right: 200px;
+	font-size: 20px;
+	color: black;
+	background-color: white;
+	padding: 10px 30px;
+}
+header {
+	height: 100px;
+	background-color: grey;
+	padding: 40px 30px;
+}
+footer {
+	height: 100px;
+	background-color: grey;
+	padding: 40px 30px;	
+}
