@@ -1,0 +1,149 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: arial, sans-serif;
+}
+.wrapper {
+	width: 1000px;
+	border-right: 4px solid	#9370D8;
+	border-left: 4px solid #9370D8;
+	margin-right: auto;
+	margin-left: auto;
+}
+.wrapper img {
+	width: 200px;
+	height: 200px;
+}
+.logo-wrapper {
+	text-align: center;
+}
+.logo {
+	text-decoration: none;
+	display: inline-block;
+	padding-left: 30px;
+}
+.logo:hover {
+	opacity: .6;
+}
+.logo span {
+	text-transform: uppercase;
+	font-size: 20px;
+	display: block;
+	color: #6A5ACD;
+	text-align: center;
+}
+nav li {
+	display: inline-block;
+	position: center;
+}
+.nav-header {
+	padding-left: 31px;
+	padding-right: 30px;
+	font-size: 20px;
+	border-style: solid;
+  border-color: #9370D8;
+  border-width: 4px 0;
+  margin-top: 20px;
+}
+.nav-header a {
+	text-decoration: none;
+	color: darkorange;
+	padding: 10px 70px;
+	display: inline-block;
+	position: center;
+}
+.nav-header a:hover {
+	color: red;
+	background-color: lightblue;
+}
+footer {
+	background-color: black;
+	padding: 30px;
+	color: white;
+}
+.nav-footer {
+	text-align: center;
+	font-size: 12px;
+}
+.nav-footer li {
+	margin: 0 10px;
+}
+.nav-footer a {
+	text-decoration: none;
+	color: white;
+}
+.nav-footer a:hover {
+	border-bottom: 3px solid #9370D8;
+}
+h1 {
+	padding: 20px;
+	text-align: center;
+	font-size: 40px;
+	text-shadow: 2px 2px 4px #9370D8, 0 0 1em #9370D8;
+}
+p {
+	margin: 0 30px;
+	padding-left: 9 20px;
+	padding-bottom: 20px;
+}
+.content1 {
+	background-color: lightyellow;
+	height: 100%;
+}
+.content2 {
+	background-color: #FFE4B5;
+}
+.content3 {
+	background-color: yellow;
+}
+.content4 {
+	background-color: brown;
+}
+.content2 img {
+	float: left;
+	height: 400px;
+	width: 600px;
+	margin: 20px;
+}
+.content4 li {
+	font-size: 22px;
+	margin: 12px;
+	color: violet;
+	display: inline-block;
+}
+.content3 li {
+	display: block;
+	font-size: 20px;
+	margin: 10px;
+}
+.portfolio-item {
+	position: relative;
+	width: 200px;
+	border: 3px solid purple;
+	margin: 20px auto 0;
+	margin-bottom: 20px;
+	text-align: center;
+	overflow: hidden;
+}
+.portfolio-item img {
+	width: 100%;
+	vertical-align: middle;
+}
+.hover {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 100%;
+	padding-top: 20px;	
+	transition: all .5s;
+}
+.title {
+	display: block;
+	font-size: 22px;
+	color: #FFE4B5;
+	text-transform: uppercase;
+}
+.portfolio-item:hover .hover {
+	right: 0;
+	top: 0;
+}
