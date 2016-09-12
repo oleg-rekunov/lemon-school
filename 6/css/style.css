@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+.header {
+	height: 470px;
+	background-color: #69d2e7;
+	border-top: 4px solid #fa6900;
+}
+.logo-img {
+	float: left;
+	margin-left: 100px;
+	margin-top: 40px;
+	width: 64px;
+}
+.head-text {
+	padding: 40px;
+}
+.head-content-name {
+	font-size: 16px;
+	text-transform: uppercase;
+	display: block;
+	font-weight: 900;
+}
+.head-content-text {
+font-size: 12px;
+display: block;
+font-weight: 500;
+}
+.content-header {
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+}
+h1 {
+	font-size: 83.29px;
+	display: block;
+}
+h2 {
+	font-size: 31.23px;
+	display: block;
+}
+.about-us {
+	width: 835px;
+	height: 290px;
+	margin: -100px auto;
+	min-height: 200px;
+	background-color: #fff;
+	z-index: 1;
+	border-radius: 9px;
+	box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+	text-align: center;
+	position: relative;
+}
+.about-us h1 {
+	font-size: 36px;
+	border-top: 47px;
+	text-transform: uppercase;
+}
+.text-border {
+	border-bottom: 1px solid #d5d5d5;
+	width: 383px;
+	margin: 0 225px 0 225px;
+	padding-top: 47px;
+}
+.about-us p {
+	font-size: 22px;
+	margin: 40px 33px 66px 33px;
+	text-align: justify;
+}
+.content-block-grey {
+	height: 534px;
+	background-color: #f1f1f1;
+	margin-top: -190px;
+}
+.figure-items-block {
+	width: 200px;
+	display: inline-block;
+	text-align: center;
+	margin-top: 252px;
+	padding-left: 210px;
+	padding-right: 120px;
+
+}
+.figure-item-box {
+	position: relative;
+	display: inline-block;
+	background-color: #fff;
+	width: 162px;
+	height: 162px;
+}
+.figure-item-box img {
+	position: relative;
+	vertical-align: middle;
+	display: inline-block;
+}
+.figure-items-block span {
+	font-size: 24px;
+	padding-top: 33px;
+	display: inline-block;
+	
+}
