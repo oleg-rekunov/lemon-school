@@ -1,0 +1,51 @@
+@font-face {
+font-family: Montserrat-Light; 
+src: local("Montserrat-Light"), 
+url(fonts/Montserrat/Montserrat-Light.otf); 
+}
+@font-face {
+font-family: Montserrat-Regular; 
+src: local("Montserrat-Regular"), 
+url(fonts/Montserrat/Montserrat-Regular.otf); 
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+table {
+	border-collapse: collapse;		
+	margin: 30px auto;	
+	width: 100%;
+}
+	th, td {
+	border: 1px solid #f1f1f1;
+	text-align: left;
+	height: 34px;
+	padding: 20px 0 10px 30px;
+}
+th {
+	color: red;
+	text-transform: uppercase;
+	font-family: Montserrat-Regular;
+}
+td {
+	font-family: Montserrat-Light;
+}
+tr:nth-child(2n) {
+ background: #fbfbfb;
+}
+tr:hover {
+	background: #d4d4d4;
+}
+a {
+	color: red;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+th {
+  background: white;
+}
