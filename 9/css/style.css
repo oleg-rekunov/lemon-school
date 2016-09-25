@@ -1,0 +1,19 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+form {
+  width: 600px;
+  margin: 20px auto;
+}
+.main-block {
+  margin: 10px 0;
+  display: table;
+}
+.grey-block {
+	background-color: lightgrey;
+	border: 1px solid lightgrey;
+	padding: 2px;
+}
